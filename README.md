@@ -12,11 +12,7 @@ API Microsoft  [XDocument Clase (System.Xml.Linq)](https://learn.microsoft.com/e
 
 Copilot:
 
-Prompt: Retorna el rànquing únic com una llista de Score, indicant el jugador, la missió i la seva puntuació única corresponent.
-Resultat: La idea d’utilitzar llistes per a filtrar els Score per puntuació i jugador i la manera ràpida d’ordenar-les.
-
-Prompt: Ha de contenir una lletra en grec transcrita, un guió i 3 nombres.
-Resultat: return Regex.IsMatch(cadena, @"^(Alfa|Beta|Gamma|Delta|Epsilon|Zeta|Eta|Theta|Iota|Kappa|Lambda|Mu|Nu|Xi|Omicron|Pi|Rho|Sigma|Tau|Upsilon|Phi|Chi|Psi|Omega)-[0-9]{3}$");
-
 Prompt: el primer get i set.
 Resultat: tots els getters i setters.
+
+No s'ha fet servir la IA per a res més
