@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Globalization;
-using System.Xml.Linq;
-using CsvHelper;
 using M03UF5AC2.Classes;
 
 namespace M03UF5AC2
