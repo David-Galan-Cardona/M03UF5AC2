@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace M03UF5AC2
+namespace M03UF5AC2.Classes
 {
     public class Registre
     {

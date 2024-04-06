@@ -2,6 +2,7 @@
 using System.Globalization;
 using System.Xml.Linq;
 using CsvHelper;
+using M03UF5AC2.Classes;
 
 namespace M03UF5AC2
 {
@@ -9,7 +10,7 @@ namespace M03UF5AC2
     {
         public static void Main()
         {
-            string path = "..\\..\\..\\Consum_d_aigua_a_Catalunya.csv";
+            string path = "..\\..\\..\\Files\\Consum_d_aigua_a_Catalunya.csv";
             var records = Helper.GetCSVData(path);
             Helper.CreateXMLFileWithLINQ(records);
             Console.WriteLine();

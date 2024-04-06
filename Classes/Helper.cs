@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace M03UF5AC2
+namespace M03UF5AC2.Classes
 {
     public class Helper
     {
@@ -75,7 +75,7 @@ namespace M03UF5AC2
                     );
                 xmlDocs.Element("records").Add(xmlDoc);
             }
-            string xmlFilePath = "..\\..\\..\\csvread.xml";
+            string xmlFilePath = "..\\..\\..\\Files\\csvread.xml";
             xmlDocs.Save(xmlFilePath);
             Console.WriteLine("Documento XML creado correctamente.");
         }
